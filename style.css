@@ -1,4 +1,7 @@
 /*header */
+header .mobile {
+    display: none;
+}
 header{
     background-color: black;
     color: white;
@@ -12,15 +15,15 @@ background-repeat: no-repeat;
 }
 header .logo a{
     background-image: url(123.png);
-    background-size: 300px;
+    background-size: 250px;
     width: 300px;
     display: inline-block;
-    height: 88px;
+    height: 70px;
     text-indent: -99999999999999px;
     background-position:center;
     background-repeat: no-repeat;
-    top: -20px;
-    position: relative;
+    top: 00px;
+    position: reletive;
     }
     /*nav */
 nav ul{
@@ -36,8 +39,19 @@ nav li{
     bottom: 23;
 }
 /*responsive */
-@media screen and (max-width: 919){
+@media screen and (max-width: 919px){
+header {
+    height: 250px;
+   background-position: 0 -50px;
+}
+    header .mobile {
+    display: inline-block;
+    
+}
 
+header .dekstop{ 
+display: none;
+}
 }
 /*body */
 body{
@@ -55,6 +69,7 @@ body{
     padding: 20px 20px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .featur figure
 {
@@ -69,6 +84,15 @@ text-align:center ;
 width: 200px;
 border-radius: 50%;
 box-shadow: gray 0  0 10px;
+
+}
+/*responsive *
+@media  screen and (max-width:919px ) {
+   .featur{ 
+       display: block;
+   
+}
+
 }
 /*a */
 a:hover{
@@ -85,4 +109,3 @@ footer{
     text-align: center;
     color: gray;
 }
-616 919
