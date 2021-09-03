@@ -1,0 +1,111 @@
+/*header */
+header .mobile {
+    display: none;
+}
+header{
+    background-color: black;
+    color: white;
+    padding:20px;
+   height: 400px;
+    text-align:center ;
+background-image: url("IMG_20210828_205452_000.jpg");
+background-size: 100%;
+background-position:center  ;
+background-repeat: no-repeat;
+}
+header .logo a{
+    background-image: url(123.png);
+    background-size: 250px;
+    width: 300px;
+    display: inline-block;
+    height: 70px;
+    text-indent: -99999999999999px;
+    background-position:center;
+    background-repeat: no-repeat;
+    top: 00px;
+    position: reletive;
+    }
+    /*nav */
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+nav li{
+    display: inline-block;
+    margin: 0 20px 10px 0;
+    position: relative;
+    bottom: 23;
+}
+/*responsive */
+@media screen and (max-width: 919px){
+header {
+    height: 250px;
+   background-position: 0 -50px;
+}
+    header .mobile {
+    display: inline-block;
+    
+}
+
+header .dekstop{ 
+display: none;
+}
+}
+/*body */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+/* featur*/
+.featur
+{
+    background-color: white;
+    color: black;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.featur figure
+{
+text-align:center ;
+    margin: auto;
+    width: 200px;
+}
+.featur figure img{
+    border: 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+width: 200px;
+border-radius: 50%;
+box-shadow: gray 0  0 10px;
+
+}
+/*responsive *
+@media  screen and (max-width:919px ) {
+   .featur{ 
+       display: block;
+   
+}
+
+}
+/*a */
+a:hover{
+    text-decoration: underline;
+   
+}
+a{
+    text-decoration: none;
+}
+/*footer */
+footer{
+    background: black;
+    padding: 10px 20px;
+    text-align: center;
+    color: gray;
+}
